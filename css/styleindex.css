@@ -2,11 +2,11 @@
 
 *{
 	box-sizing: border-box;
+  
 }
 
 body {
   width: auto;
-  margin: 0 auto;
   background-color: azure;
 }
 
@@ -85,16 +85,33 @@ ul img {
 
 .conteudo {
   text-align:center;
-  display: block;
+  display: grid;
   font-family: "Montserrat";
   background-color: #4165af;
   margin: 10, 10, 10, 10;
   padding: 20px;
-  height: 70%;
-  width: 1200px;
-}
+  width: auto;
 
+}
+.conteudo p{
+  color: whitesmoke !important;
+  background-color: #0707077c;
+  text-align: center;
+  list-style: none;
+}
+.conteudo a{
+  list-style: none;
+  text-align: center;
+  color: whitesmoke !important;
+ 
+}
 .titulo{
 	background-color: rgb(10, 10, 10);
 	color: whitesmoke;
+  
 }
+
+.coluna {
+  width: 400px;
+}
+

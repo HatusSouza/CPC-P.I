@@ -1,7 +1,6 @@
 .contrast,
 .contrast li,
 .contrast ol,
-.contrast header,
 .contrast footer,
 .contrast section,
 .contrast main,
@@ -60,4 +59,8 @@ li a:hover {
 
 .contrast img.on-contrast-force-white {
     filter: brightness(0) invert(1);
+}
+
+.contrast header{
+  background-color: rgb(6, 234, 241);
 }
