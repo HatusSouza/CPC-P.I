@@ -1,5 +1,4 @@
 .contrast,
-.contrast div,
 .contrast li,
 .contrast ol,
 .contrast header,
@@ -8,8 +7,8 @@
 .contrast main,
 .contrast aside,
 .contrast article {
-    background: black !important;
-    color: white !important;
+  background: black !important;
+  color: white !important;
 }
 
 .contrast h1,
@@ -28,27 +27,37 @@
 .contrast b,
 .contrast u,
 .contrast span {
-color:whitesmoke !important;
-    background-color: #03c4ff7c;
-    border: 1px solid black;
+  color: whitesmoke !important;
+  background-color: #0707077c;
+
+  
 }
 
-.contrast a{
-    color: yellow !important;
+.contrast a {
+  color: yellow !important;
 }
 
-.contrast input[type=button],
-.contrast input[type=reset],
-.contrast input[type=submit] {
-    background: black !important;
-    color: yellow !important;
-    border: none !important;
+.contrast input[type="button"],
+.contrast input[type="reset"],
+.contrast input[type="submit"] {
+  background: black !important;
+  color: yellow !important;
+  border: none !important;
 }
 
-.contrast button{
-    background-color: #FF1049;
-    color:yellow;
-    border: solid;
+.contrast button {
+  background-color: #ff1049;
+  color: yellow;
+  border: solid;
 }
-li a:hover{
-	color:#4165AF;}
+li a:hover {
+  color: #4165af;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
