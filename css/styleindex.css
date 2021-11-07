@@ -1,15 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
-*{
-	box-sizing: border-box;
-  
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  width: auto;
 }
 
 body {
   width: auto;
   background-color: azure;
 }
-
+.logo{
+  
+  display: flex;
+  align-content: flex-start;
+  align-items: center;
+ 
+}
 .menu1 {
   background-color: black;
   text-align: end;
@@ -25,10 +32,10 @@ body {
 }
 
 .menu1 li {
-  margin: 30px 30px 50px 0px;
+  margin: 5px 20px 40px 30px;
+  padding: 17px 10px 17px 134px;
   list-style: none;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 18px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .menu1 li a {
@@ -45,12 +52,10 @@ ul img {
   font-weight: 18px;
 }
 
-.botao {
-  margin: 27px 30px 50px 400px;
-  list-style: none;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 18px;
-  float: left;
+#top{
+  align-items: center;
+  display: flex; 
+  flex-direction:column;
 }
 
 .menu2 {
@@ -67,7 +72,8 @@ ul img {
 }
 
 .menu2 li {
-  margin: 5px 20px 40px 0px;
+  margin: 5px 20px 40px 30px;
+  padding: 17px 10px 17px 134px;
   list-style: none;
   font-family: "Montserrat", sans-serif;
 }
@@ -84,34 +90,69 @@ ul img {
 }
 
 .conteudo {
-  text-align:center;
+  text-align: center;
   display: grid;
   font-family: "Montserrat";
   background-color: #4165af;
-  margin: 10, 10, 10, 10;
+  margin: 40px, 10, 10, 10px;
   padding: 20px;
   width: auto;
-
+  justify-content: center;
 }
-.conteudo p{
+.conteudo p {
   color: whitesmoke !important;
   background-color: #0707077c;
   text-align: center;
   list-style: none;
+  justify-content: center;
+  width: 800px;
+  line-height: 150%;
 }
-.conteudo a{
+.conteudo a {
   list-style: none;
   text-align: center;
   color: whitesmoke !important;
- 
 }
-.titulo{
-	background-color: rgb(10, 10, 10);
-	color: whitesmoke;
-  
+.titulo {
+  background-color: rgb(10, 10, 10);
+  color: whitesmoke;
+  justify-content: center;
+  width: 800px;
+  font-size: 26px;
 }
+.h1{
+  background-color: rgb(10, 10, 10);
+  color: whitesmoke;
+}
+
 
 .coluna {
   width: 400px;
 }
 
+.linha{
+  display: flex;
+  margin: 10px 10px 10px 10px;
+  color: whitesmoke !important;
+  background-color: #0707077c;
+  text-align: center;
+  list-style: none;
+  justify-content: center;
+  width: 800px;
+  
+}
+
+
+  .redes-sociais {
+    display: flex;
+    margin-top: -4px;
+    justify-content: center;
+    text-align: center;
+    margin-right: -410px;
+}
+
+.redes-sociais a{
+  font-size: 55px;
+  color: #fcfeff;
+  padding-right: 20px;
+}
