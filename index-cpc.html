@@ -5,36 +5,22 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="widht"device-widht, initial-scale=1.0>
+		<title> CPC - Centro de prevenção a Cegueira </title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="nivo-slider/nivo-slider.css">
 		<link rel="stylesheet" href="Magnific-Popup/dist/magnific-popup.css">
 		<link rel="stylesheet" href="css/styleindex.css">
-		<title> CPC - Centro de prevenção a Cegueira </title>
-		
 		<link rel="stylesheet" href="css/contrast.css">
+		
 	</head>
 	<body class="contrast">
-			<!-- MENU 1 -->
+			
 			
 			<header id="menu" class="menu1">
 				
-					
 				<ul>
-					<img src="logo/logohorizontal.png"  alt="Logotipo CPC - Centro de prevenção a Cegueira"></ul>
-
-				<li><a href="#top" accesskey="1">Ir para o Conteúdo Principal [1]</a></li>
-
-					<li><a href="#menu" accesskey="2">Início do Menu [2]</a></li>
-
-					<li><a href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste [3]</a></li>					
-					<div class="botao">
-						<button type="button" id="aumenta_fonte"onclick=""> A+ </button> <button type="button" id="reduz_fonte"> A- </button>
-					</div>
-				</ul>
-			</header>
-			<!-- FIM MENU 1 -->
-
-			<!-- MENU 2 -->
-			<nav id="navegacao"class="menu2">
-				<ul>
+					<div class="logo">
+						<img src="logo/logohorizontal.png"  alt="Logotipo CPC - Centro de prevenção a Cegueira"></div>
 					<li>
 						<a href="index-cpc.html"> HOME </a>
 					</li>
@@ -47,31 +33,47 @@
 						<a href="deficiencia.html"> A DEFICIÊNCIA </a>
 					</li>
 
-					<li>
-						<a href="ajuda.html"> COMO AJUDAR </a>
-					</li>
+										
 
 					<li>
-						<a href="galeria.html"> GALERIA </a>
+						<a href="contatos.html"> CONTATO </a>
 					</li>
 
-					<li>
-						<a href="contato.html"> CONTATO </a>
-					</li>
+				</ul>	
+					
+				
+			</header>
+			
 
+			
+			<nav id="navegacao"class="menu2">
+				<li><a href="#top" accesskey="1">Ir para o Conteúdo Principal [1]</a></li>
+
+					<li><a href="#menu" accesskey="2">Início do Menu [2]</a></li>
+
+					<li><a href="#altocontraste" id="altocontraste" accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()">Alto contraste [3]</a></li>					
+					
 				</ul>
 			</nav>
-						<!-- FIM MENU 2 -->
+						
 				<!-- BANNER -->
 				<main id="top">
-			<div id="conteudo-1"class="conteudo">
-				<h1 class="titulo">CONHEÇA NOSSOS PROGRAMAS:</h1>
-				<figure>
-					<figcaption><h1 class="titulo">PREVENÇÃO PRECOSSE:</h1></figcaption>
-					<img src="banner/intervecao.jpg" alt="intervecao" class="banner">
-					<figcaption><p>Prestação de serviços nas áreas educacional, terapêutica (saúde) e social, direcionada pessoas com Deficiência Visual e/ou Deficiência Múltipla,desde o nascimento até a idade escolar, que estejam em risco de atraso do desenvolvimento, objetivando prevenir possíveis intercorrências e minimizar as já existentes. Faz uso de experiências lúdicas e significativas, que envolvam os sentidos, a percepção, o prazer da exploração e o descobrimento.</p></figcaption>
-				</figure>
+				<h1>Nossos Programas:</h1>
+			<figure class="banner" id="lista-banner">
+				<figcaption>
+				<img src="banner/educacao.jpg" title="Faz uso de experiências lúdicas e significativas, que envolvam os sentidos, a percepção, o prazer da exploração e o descobrimento.">
+				Educação:</figcaption>
+				<img src="banner/prevencao.jpg">
+				<img src="banner/reabilitacao.jpg">
+			</figure>
 				
+
+				
+			
+			
+
+				
+				</div>
 				
 					
 				
@@ -80,10 +82,10 @@
 					<h2 class="titulo">SUA AJUDA NOS FORTALECE:</h2>
 					<figure><h1 class="titulo">Se torne um doador mensal:</h1>
 						<img src="banner/ajuda.jpg" alt="seja um doador" class="banner">
-						<figcaption><p>Venha você também fazer parte de nosso grupo de contribuintes:
+						<p>Venha você também fazer parte de nosso grupo de contribuintes:
 							Deposite qualquer valor em nossa conta corrente n° 3865-0, agência 0278, Banco n°104 Banco Caixa Econômica Federal, operação 003. Caso queira realizar uma doação mensal acesse o link abaixo.
 							</p>
-						
+							<br>
 							<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSf--h0QjopkppaazMV8iXlRnBHXOR1264NG3yz-Rb1YctlD-A/viewform?fbzx=3226106284909030124">Click aqui e preencha a ficha</a></p>
 						</p>
 					</figure>
@@ -104,10 +106,14 @@
 						</div>
 					</ul>
 				</flooter>
+		
 				<script src="js/jquery.js"></script>
-				<script src="Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+				
+				<script src="nivo-slider/jquery.nivo.slider.js"></script>
+			
 			<script src="js/array.js"></script>
 			<script src="js/app.js"></script>
+
 	</body>
 </html>
 
