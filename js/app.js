@@ -14,6 +14,10 @@ $(document).ready(function() {
   // 
 
   //banner
-  $('#lista-banner').nivoSlider(
+  $('#lista-banner').nivoSlider({
+    pauseOnHover:true,
+    
+  }
+
     
   )
