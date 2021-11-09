@@ -38,7 +38,7 @@
 	margin:0;
 	z-index:6;
 	display:none;
-	background:white; 
+	background:rgb(3, 3, 3); 
 	filter:alpha(opacity=0); 
 	opacity:0;
 }
